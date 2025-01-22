@@ -4,7 +4,7 @@
 <html lang="en" manifest="cache.manifest">
 <head>
 	<meta charset="utf-8" />
-	<title>Pacman in HTML 5 Canvas</title>
+	<title>Ug Pacman</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="pacman-canvas.css">
 	<link rel="manifest" href="manifest.json">
@@ -33,8 +33,14 @@
 	<meta property="og:locale" content="en_US" />
 
 	<!-- site icons -->
-	<link rel="shortcut icon" href="img/Icon-130x130.png" />
-	<link rel="apple-touch-icon" href="img/Icon-130x130.png" />
+	<!-- 浏览器标签图标 -->
+	<link rel="icon" type="image/png" href="img/icon-192x192.png">
+	
+	<!-- iOS 设备支持 -->
+	<link rel="apple-touch-icon" href="img/icon-192x192.png">
+	<meta name="apple-mobile-web-app-title" content="Ug Pacman">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 
     <meta property="og:image" content="http://pacman.platzh1rsch.ch/img/Icon-130x130.png"/>
 
@@ -336,8 +342,8 @@
 		<div id="canvas-container">
 			<div id="canvas-overlay-container">
 				<div id="canvas-overlay-content">
-					<div id="title">Pacman Canvas</div>
-					<div><p id="text">Click to Play</p></div>
+					<div id="title">Ug-Pacman</div>
+					<div><p id="text">Keith Ask U to Click</p></div>
 				</div>
 			</div>
 			<canvas id="myCanvas" width="540" height="390">
